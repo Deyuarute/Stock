@@ -6,22 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
 </head>
 <body>
     <div class="box">
         <div class="img">
-            <img src="PixelE.png" alt="EstoqueC">
+            <img src="LoginImg.jpg" alt="EstoqueC">
         </div>
         
-        <form>
+        <form autocomplete="on">
             <div class="login">
-            <label for="User">Usuário:
-                <input type="text" id="name">
+                <span class="material-symbols-outlined">person</span>
+                    <label for="User">Usuário:
+                        <input type="email" id="name" autocomplete="email" required>
             </div>
-            <div class="login">
-                <label for="password">Password:</label>
-                <input type="text" id="gmail">
+                <div class="login">
+                    <span class="material-symbols-outlined">key</span>
+                        <label for="password">Password:</label>
+                            <input type="text" id="gmail" autocomplete="current-password" required>
             </div>
+            <button>entrar</button>
             </label>
         </form>
     </div>
