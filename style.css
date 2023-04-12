@@ -1,3 +1,9 @@
+/* #F2E416
+#F2B705
+#F29F05
+#F28705
+#F25C05 */
+
 *{
     font-family: 'Montserrat', sans-serif;
 }
@@ -10,8 +16,8 @@ body{
 div.box{
     max-width: 400px;
     min-width:360px;
-    max-height: 700px;
-    min-height: 500px;
+    max-height: 750px;
+    min-height: 550px;
     width: 20vw;
     background-color: #E0E9FA;
     border-radius: 5px;
@@ -45,4 +51,16 @@ div > form{
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+button{
+    background-color:#F2B705 ;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 50%;
+
+}
+button:hover {
+    background-color: #F29F05;
 }
